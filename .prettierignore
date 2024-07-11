@@ -1,0 +1,9 @@
+/dist
+/node_modules
+/.angular
+/.github
+/.vscode
+/.idea
+*.html
+package.json
+package-lock.json

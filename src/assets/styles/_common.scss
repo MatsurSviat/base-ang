@@ -1,0 +1,29 @@
+@import 'variables';
+@import 'mixins';
+
+html {
+  height: 100%;
+  font-size: 16px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+body {
+  position: relative;
+  min-width: 300px;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: $font-size-base;
+  font-weight: 400;
+  font-family: $font-family;
+  line-height: 1.375;
+  color: var(--text);
+  background-color: var(--main);
+}
+
+app-root {
+  display: block;
+  height: 100%;
+}

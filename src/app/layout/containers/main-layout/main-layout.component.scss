@@ -1,0 +1,11 @@
+.layout {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
